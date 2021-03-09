@@ -1,4 +1,4 @@
-package main.day13;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CarePackage extends AOCRiddle {
-    public CarePackage(String in, int part) {
+public class Day13 extends AOCRiddle {
+    public Day13(String in, int part) {
         super(in, part);
         computer = new IntCodeComputer(getInput());
         game = new String[24][45];

@@ -1,10 +1,10 @@
-package main.day2;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
 
-public class GravityAssist extends AOCRiddle {
-    public GravityAssist(String in, int part) {
+public class Day2 extends AOCRiddle {
+    public Day2(String in, int part) {
         super(in, part);
         computer = new IntCodeComputer(getInput());
     }

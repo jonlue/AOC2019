@@ -1,4 +1,4 @@
-package main.day7;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
@@ -7,8 +7,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class AmplificationCircuit extends AOCRiddle {
-    public AmplificationCircuit(String in, int part) {
+public class Day7 extends AOCRiddle {
+    public Day7(String in, int part) {
         super(in, part);
         init();
     }

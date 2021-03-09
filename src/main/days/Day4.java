@@ -1,11 +1,11 @@
-package main.day4;
+package main.days;
 
 import main.AOCRiddle;
 
 import java.util.HashMap;
 
-public class SecureContainer extends AOCRiddle {
-    public SecureContainer(String in, int part) {
+public class Day4 extends AOCRiddle {
+    public Day4(String in, int part) {
         super(in, part);
         parse();
     }

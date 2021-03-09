@@ -1,19 +1,19 @@
 package main;
 
-import main.day1.MassToFuel;
-import main.day10.MonitoringStation;
-import main.day11.SpacePolice;
-import main.day12.NBodyProblem;
-import main.day13.CarePackage;
-import main.day16.FlawedFrequencyTransmission;
-import main.day2.GravityAssist;
-import main.day3.CrossedWires;
-import main.day4.SecureContainer;
-import main.day5.SunnyWithAChanceOfAsteroids;
-import main.day6.UniversalOrbitMap;
-import main.day7.AmplificationCircuit;
-import main.day8.SpaceImageFormat;
-import main.day9.SensorBoost;
+import main.days.Day1;
+import main.days.Day10;
+import main.days.Day11;
+import main.days.Day12;
+import main.days.Day13;
+import main.days.Day16;
+import main.days.Day2;
+import main.days.Day3;
+import main.days.Day4;
+import main.days.Day5;
+import main.days.Day6;
+import main.days.Day7;
+import main.days.Day8;
+import main.days.Day9;
 
 import java.io.File;
 import java.io.IOException;
@@ -43,7 +43,7 @@ public class AOC19 {
                 usage();
             }
         }
-        doExecrise(exercise,part,testing);
+        doExercise(exercise,part,testing);
     }
 
     private static void usage(){
@@ -52,7 +52,7 @@ public class AOC19 {
         System.exit(-1);
     }
 
-    private static void doExecrise(int exercise, int part,boolean test){
+    private static void doExercise(int exercise, int part, boolean test){
         String in = "";
         try {
             in = readFile((test ? "test" : "input" + exercise) + ".txt");
@@ -69,43 +69,43 @@ public class AOC19 {
         AOCRiddle riddle = null;
         switch(exercise){
             case(1):
-                riddle= new MassToFuel(in,part);
+                riddle= new Day1(in,part);
                 break;
             case(2):
-                riddle = new GravityAssist(in,part);
+                riddle = new Day2(in,part);
                 break;
             case(3):
-                riddle = new CrossedWires(in,part);
+                riddle = new Day3(in,part);
                 break;
             case(4):
-                riddle = new SecureContainer(in,part);
+                riddle = new Day4(in,part);
                 break;
             case(5):
-                riddle = new SunnyWithAChanceOfAsteroids(in,part);
+                riddle = new Day5(in,part);
                 break;
             case(6):
-                riddle = new UniversalOrbitMap(in,part);
+                riddle = new Day6(in,part);
                 break;
             case(7):
-                riddle = new AmplificationCircuit(in,part);
+                riddle = new Day7(in,part);
                 break;
             case(8):
-                riddle = new SpaceImageFormat(in,part);
+                riddle = new Day8(in,part);
                 break;
             case(9):
-                riddle = new SensorBoost(in,part);
+                riddle = new Day9(in,part);
                 break;
             case(10):
-                riddle = new MonitoringStation(in,part);
+                riddle = new Day10(in,part);
                 break;
             case(11):
-                riddle = new SpacePolice(in,part);
+                riddle = new Day11(in,part);
                 break;
             case(12):
-                riddle = new NBodyProblem(in,part);
+                riddle = new Day12(in,part);
                 break;
             case(13):
-                riddle = new CarePackage(in,part);
+                riddle = new Day13(in,part);
                 break;
                 /*
             case(14):
@@ -116,12 +116,12 @@ public class AOC19 {
                 break;
                 */
             case(16):
-                riddle = new FlawedFrequencyTransmission(in,part);
+                riddle = new Day16(in,part);
                 break;
-                /*
             case(17):
-                //riddle = new TooMuch(in,part);
+                riddle = new Day17(in,part);
                 break;
+            /*
             case(18):
                 riddle = new LikeARouge(in,part);
                 break;

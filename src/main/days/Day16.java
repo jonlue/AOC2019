@@ -1,12 +1,12 @@
-package main.day16;
+package main.days;
 
 import main.AOCRiddle;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class FlawedFrequencyTransmission extends AOCRiddle {
-    public FlawedFrequencyTransmission(String in, int part) {
+public class Day16 extends AOCRiddle {
+    public Day16(String in, int part) {
         super(in, part);
         parse();
     }

@@ -1,10 +1,10 @@
-package main.day9;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
 
-public class SensorBoost extends AOCRiddle {
-    public SensorBoost(String in, int part) {
+public class Day9 extends AOCRiddle {
+    public Day9(String in, int part) {
         super(in, part);
         computer = new IntCodeComputer(getInput());
     }

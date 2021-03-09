@@ -1,9 +1,9 @@
-package main.day8;
+package main.days;
 
 import main.AOCRiddle;
 
-public class SpaceImageFormat extends AOCRiddle {
-    public SpaceImageFormat(String in, int part) {
+public class Day8 extends AOCRiddle {
+    public Day8(String in, int part) {
         super(in, part);
         getRows();
     }

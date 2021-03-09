@@ -1,12 +1,12 @@
-package main.day1;
+package main.days;
 
 import main.AOCRiddle;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MassToFuel extends AOCRiddle {
-    public MassToFuel(String in, int part) {
+public class Day1 extends AOCRiddle {
+    public Day1(String in, int part) {
         super(in, part);
     }
 

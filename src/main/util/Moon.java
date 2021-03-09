@@ -1,4 +1,4 @@
-package main.day12;
+package main.util;
 
 import java.util.Objects;
 

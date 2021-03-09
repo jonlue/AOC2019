@@ -1,4 +1,4 @@
-package main.day11;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
@@ -7,8 +7,8 @@ import java.awt.*;
 import java.util.Collections;
 import java.util.HashMap;
 
-public class SpacePolice extends AOCRiddle {
-    public SpacePolice(String in, int part) {
+public class Day11 extends AOCRiddle {
+    public Day11(String in, int part) {
         super(in, part);
         computer = new IntCodeComputer(getInput());
     }

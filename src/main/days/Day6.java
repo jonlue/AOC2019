@@ -1,4 +1,4 @@
-package main.day6;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.Tree.SortedBinaryTree;
@@ -8,8 +8,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class UniversalOrbitMap extends AOCRiddle {
-    public UniversalOrbitMap(String in, int part) {
+public class Day6 extends AOCRiddle {
+    public Day6(String in, int part) {
         super(in, part);
         parse();
         createTree();

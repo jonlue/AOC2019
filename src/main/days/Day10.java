@@ -1,4 +1,4 @@
-package main.day10;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.Asteroid;
@@ -6,8 +6,8 @@ import main.util.Asteroid;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class MonitoringStation extends AOCRiddle {
-    public MonitoringStation(String in, int part) {
+public class Day10 extends AOCRiddle {
+    public Day10(String in, int part) {
         super(in, part);
         parse();
     }

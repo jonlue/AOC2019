@@ -1,12 +1,14 @@
-package main.day12;
+package main.days;
 
 import main.AOCRiddle;
+import main.util.Moon;
+import main.util.MoonMoverThread;
 
 import java.math.BigInteger;
 import java.util.*;
 
-public class NBodyProblem extends AOCRiddle {
-    public NBodyProblem(String in, int part) {
+public class Day12 extends AOCRiddle {
+    public Day12(String in, int part) {
         super(in, part);
         parse();
     }

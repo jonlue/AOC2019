@@ -1,4 +1,4 @@
-package main.day3;
+package main.days;
 
 import main.AOCRiddle;
 
@@ -6,8 +6,8 @@ import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CrossedWires extends AOCRiddle {
-    public CrossedWires(String in, int part) {
+public class Day3 extends AOCRiddle {
+    public Day3(String in, int part) {
         super(in, part);
         parse();
     }

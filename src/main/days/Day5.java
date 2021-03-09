@@ -1,4 +1,4 @@
-package main.day5;
+package main.days;
 
 import main.AOCRiddle;
 import main.util.IntCodeComputer;
@@ -6,8 +6,8 @@ import main.util.IntCodeComputer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SunnyWithAChanceOfAsteroids extends AOCRiddle {
-    public SunnyWithAChanceOfAsteroids(String in, int part) {
+public class Day5 extends AOCRiddle {
+    public Day5(String in, int part) {
         super(in, part);
         computer = new IntCodeComputer(getInput());
     }
